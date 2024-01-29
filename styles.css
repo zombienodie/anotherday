@@ -49,3 +49,6 @@ th{
         color: tomato;
       }
  }
+h1{
+ animation: doimau 10s infinite;
+}
