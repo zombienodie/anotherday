@@ -30,6 +30,13 @@ th{
 h1{
  animation: doimau 10s infinite;
 }
+del{
+ color: red;
+ 
+}
+details{
+ background-color: #000;
+}
  /* doi mau */
  @keyframes doimau{
       0% {
