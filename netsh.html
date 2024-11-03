@@ -1,0 +1,10 @@
+netsh interface show interface
+netsh wlan show interface
+
+Admin State    State          Type             Interface Name
+-------------------------------------------------------------------------
+Enabled        Connected      Dedicated        Ethernet
+Enabled        Connected      Dedicated        CloudflareWARP
+
+netsh interface set interface name="NetworkName" admin=DISABLED
+netsh interface set interface name="NetworkName" admin=NABLED
